@@ -1,0 +1,6 @@
+# Shell variables for register-route53.sh
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
+ZONE="example.com"
+HOST_NAME="testhost"
+TTL="300"
