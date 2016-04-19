@@ -40,3 +40,6 @@ Now test running the script and you should see it create a CNAME record in Route
 Now create an entry in your crontab with @reboot to run the script when the system boots.
 
 Now shutdown the server (not reboot) and start it back up, when the server boots back up it will pickup a new dynamic public IP address (unless your using an Elastic IP) and the cron job will update the CNAME record in Route53 with the new Public IP/DNS entry.
+
+
+Blog post on my site: http://www.evergreenitco.com/evergreenit-blog/2015/3/1/script-to-register-dynamic-ec2-public-ip-with-route53-in-aws
