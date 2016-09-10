@@ -21,7 +21,8 @@ Create IAM Policy in AWS (edit <ZoneID> with your Hosted Zone ID in Route53):
         },
         {
             "Action": [
-                "route53:ListHostedZones"
+                "route53:ListHostedZones",
+                "route53:ListHostedZonesByName"
             ],
             "Effect": "Allow",
             "Resource": [
